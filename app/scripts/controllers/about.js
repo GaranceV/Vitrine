@@ -14,4 +14,6 @@ angular.module('vitrineApp')
       'AngularJS',
       'Karma'
     ];
+        $scope.theName="his name !";
+
   });
