@@ -20,11 +20,12 @@ angular.module('vitrineApp')
 
 angular.module('vitrineApp')
     .controller('EducationCtrl', function ($scope, $http) {
-        $scope.myData = $http.get('assets/mydata.json')
+        $scope.myData = $http.get('assets/education.json')
             .success(function(data) {
                 $scope.myData = data;
             })
             .error(function(error) {
                 console.log(error); //pour le debug
             });
+    //need to convert each one need into an array to order by order of date ?!
     });

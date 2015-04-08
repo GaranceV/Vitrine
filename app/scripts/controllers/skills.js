@@ -8,10 +8,12 @@
  * Controller of the vitrineApp
  */
 angular.module('vitrineApp')
-  .controller('SkillsCtrl', function ($scope) {
-    $scope.awesomeThings = [
-      'HTML5 Boilerplate',
-      'AngularJS',
-      'Karma'
-    ];
+  .controller('SkillsCtrl', function ($scope, $http) {
+  $scope.myData = $http.get('assets/mydata.json')
+    .success(function(data) {
+      $scope.myData = data;
+    })
+    .error(function(error) {
+      console.log(error); //pour le debug
+    });
   });

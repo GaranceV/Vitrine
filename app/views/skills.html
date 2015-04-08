@@ -1,1 +1,32 @@
 <h1>My skills</h1>
+<h3>My IT skills</h3>
+  <div ng-repeat="skill in myData.Skills">
+    <div ng-if="skill.domain == 'IT'">
+      <ul>
+        <li>
+          In {{skill.name}}, my level is {{skill.level}} !
+          <div ng-if="skill.Certificate != 'none'">
+            I have passed the {{skill.Certificate}} to prove it !
+          </div>
+        </li>
+      </ul>
+    </div>
+    </div>
+
+<h3>My language skills</h3>
+<div ng-repeat="skill in myData.Skills">
+  <div ng-if="skill.domain == 'Languages'">
+  <ul>
+        <li>
+          In {{skill.name}}, my level is {{skill.level}} !
+          <div ng-if="skill.Certificate != 'none'">
+            I passed the {{skill.Certificate}} to prove it !
+            </div>
+        </li>
+      </ul>
+    </div>
+
+    </div>
+
+
+

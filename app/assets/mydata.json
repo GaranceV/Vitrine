@@ -1,28 +1,11 @@
-
 {
-  "Myeducation": [
-    {
-      "year": "2014-2015",
-      "place": "Sophia-Antipolis",
-      "school": "Polytech Nice Sophia",
-      "level": "4A",
-      "subject": "Computer Science"
-    },
-    {
-      "year": "2013-2014",
-      "place": "Sophia-Antipolis",
-      "school": "Polytech Nice Sophia",
-      "level": "3A",
-      "subject": "Computer Science"
-    }
-  ],
   "work": [
     {
       "begin": "2010",
       "end": "2012",
       "company": "Intervalles",
       "position": "agent de street marketing",
-      "missions": "giving out paper",
+      "missions": "giving out the newspaper",
       "place": "Lyon"
     },
     {
@@ -32,22 +15,6 @@
       "position": "moniteur salle information",
       "missions": "surveiller les étudiants / gérer le prêt / gérer les podcasts",
       "place": "Lyon"
-    }
-  ],
-  "diplomas": [
-    {
-      "name": "Baccalauréat",
-      "subject": "Literature",
-      "year": "2009",
-      "place": "Lycée International de Lyon",
-      "honors": "With highest honors"
-    },
-    {
-      "name": "Licence",
-      "subject": "Maths-infos appliquées aux sciences Humaines - Psychologie",
-      "year": "2013",
-      "place": "Université Lumière Lyon II",
-      "honors": "With honors"
     }
   ],
   "Travels": [
@@ -81,6 +48,18 @@
       "domain": "IT",
       "name": "C++",
       "level": "good",
+      "Certificate": "none"
+    },
+    {
+      "domain": "Languages",
+      "name": "English",
+      "level": "fluent",
+      "Certificate": "TOEIC (score : 990/990)"
+    },
+    {
+      "domain": "Languages",
+      "name": "German",
+      "level": "quite good",
       "Certificate": "none"
     }
   ],

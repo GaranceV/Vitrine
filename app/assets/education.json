@@ -1,7 +1,34 @@
 {
-  "formation" : [
-  {"name" : "CSI"},
-  {"name" : "Edouard Herriot"},
-  {"name" : "Lumière"}
-]
+  "Myeducation": [
+    {
+      "year": "2014-2015",
+      "place": "Sophia-Antipolis",
+      "school": "Polytech Nice Sophia",
+      "level": "4A",
+      "subject": "Computer Science"
+    },
+    {
+      "year": "2013-2014",
+      "place": "Sophia-Antipolis",
+      "school": "Polytech Nice Sophia",
+      "level": "3A",
+      "subject": "Computer Science"
+    }
+  ],
+  "diplomas": [
+    {
+      "name": "Baccalauréat",
+      "subject": "Literature",
+      "year": "2009",
+      "place": "Lycée International de Lyon",
+      "honors": "With highest honors"
+    },
+    {
+      "name": "Licence",
+      "subject": "Maths-infos appliquées aux sciences Humaines - Psychologie",
+      "year": "2013",
+      "place": "Université Lumière Lyon II",
+      "honors": "With honors"
+    }
+  ]
 }
