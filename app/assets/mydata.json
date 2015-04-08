@@ -1,0 +1,119 @@
+
+{
+  "Myeducation": [
+    {
+      "year": "2014-2015",
+      "place": "Sophia-Antipolis",
+      "school": "Polytech Nice Sophia",
+      "level": "4A",
+      "subject": "Computer Science"
+    },
+    {
+      "year": "2013-2014",
+      "place": "Sophia-Antipolis",
+      "school": "Polytech Nice Sophia",
+      "level": "3A",
+      "subject": "Computer Science"
+    }
+  ],
+  "work": [
+    {
+      "begin": "2010",
+      "end": "2012",
+      "company": "Intervalles",
+      "position": "agent de street marketing",
+      "missions": "giving out paper",
+      "place": "Lyon"
+    },
+    {
+      "begin": "2012",
+      "end": "2013",
+      "company": "Université Lumière Lyon II",
+      "position": "moniteur salle information",
+      "missions": "surveiller les étudiants / gérer le prêt / gérer les podcasts",
+      "place": "Lyon"
+    }
+  ],
+  "diplomas": [
+    {
+      "name": "Baccalauréat",
+      "subject": "Literature",
+      "year": "2009",
+      "place": "Lycée International de Lyon",
+      "honors": "With highest honors"
+    },
+    {
+      "name": "Licence",
+      "subject": "Maths-infos appliquées aux sciences Humaines - Psychologie",
+      "year": "2013",
+      "place": "Université Lumière Lyon II",
+      "honors": "With honors"
+    }
+  ],
+  "Travels": [
+    {
+      "country": "Ireland",
+      "year": "2010",
+      "city": "Dublin",
+      "with": "alone",
+      "duration": "1 week",
+      "stayed at": "friends'",
+      "fav place": "Trinity College"
+    },
+    {
+      "country": "USA",
+      "year": "2008",
+      "city": "Philadelphia",
+      "with": "school trip",
+      "duration": "3 weeks",
+      "stayed at": "american family'",
+      "fav place": "Benjamin Franklin Museum"
+    }
+  ],
+  "Skills": [
+    {
+      "domain": "IT",
+      "name": "Java",
+      "level": "good",
+      "Certificate": "none"
+    },
+    {
+      "domain": "IT",
+      "name": "C++",
+      "level": "good",
+      "Certificate": "none"
+    }
+  ],
+  "projects": [
+    {
+      "year": "2015",
+      "place": "Polytech Nice Sophia",
+      "context": "end of semester project",
+      "team": "5 persons",
+      "title": "Marauders' map",
+      "responsible for": "client / server communication",
+      "main feature": "position simulator",
+      "other feature": "secured HTTPS communication",
+      "tech 1": "java",
+      "tech 2": "javascript",
+      "tech 3": "git"
+    },
+    {
+      "year": "2014",
+      "place": "Polytech Nice Sophia",
+      "context": "tools for sofwtare engineering class project",
+      "team": "4 persons",
+      "title": "Myrmes game",
+      "responsible for": "about everything",
+      "main feature": "robot player",
+      "other feature": "JSON communication",
+      "tech 1": "java",
+      "tech 2": "git",
+      "tech 3": "kanban"
+    }
+  ],
+  "hobbies": [
+    {"name": "writing"},
+    {"name": "theatre"}
+  ]
+}

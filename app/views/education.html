@@ -1,0 +1,22 @@
+<h1>My education</h1>
+<h3>Where did I go to school ?</h3>
+<ul>
+    <li ng-repeat="etab in myData.Myeducation">
+      In {{etab.year}} :
+      <ul>
+        <li>I was at {{etab.school}} in {{etab.subject}}.</li>
+        </ul>
+    </li>
+</ul>
+
+
+<h3>What diplomas did I pass ?</h3>
+<ul>
+    <li ng-repeat="diploma in myData.diplomas">
+        In {{diploma.year}} :
+      <ul>
+        <li>I got my {{diploma.name}}, specialised in {{diploma.subject}}</li>
+      </ul>
+    </li>
+</ul>
+

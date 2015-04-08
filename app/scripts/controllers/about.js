@@ -14,6 +14,8 @@ angular.module('vitrineApp')
       'AngularJS',
       'Karma'
     ];
-        $scope.theName="his name !";
-
+        $scope.theName='his name !';
+        $scope.getName = function(n) {
+            $scope.theName = n;
+        };
   });
