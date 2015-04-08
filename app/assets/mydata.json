@@ -93,6 +93,7 @@
   ],
   "hobbies": [
     {"name": "writing"},
-    {"name": "theatre"}
+    {"name": "theatre"},
+    {"name": "cooking"}
   ]
 }
