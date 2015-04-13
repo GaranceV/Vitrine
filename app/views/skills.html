@@ -5,6 +5,13 @@
       <ul>
         <li>
           In {{skill.name}}, my level is {{skill.level}} !
+
+          <div class="progress">
+            <div class="progress-bar progress-bar-striped active"
+                 role="progressbar" aria-valuenow="{{convertLvl(skill.level)}}" aria-valuemin="0" aria-valuemax="100" style="width:{{convertLvl(skill.level)}}%">
+              <span class="sr-only">{{convertLvl(skill.level)}}% Complete</span>
+            </div>
+          </div>
           <div ng-if="skill.Certificate != 'none'">
             I have passed the {{skill.Certificate}} to prove it !
           </div>
