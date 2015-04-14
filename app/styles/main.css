@@ -7,6 +7,7 @@
 
 body {
   padding: 0;
+  background:#F35353;
 }
 
 /* Everything but the jumbotron gets side spacing for mobile first views */
@@ -45,6 +46,7 @@ body {
 .jumbotron {
   text-align: center;
   border-bottom: 1px solid #e5e5e5;
+  backgound:#F67979;
 }
 .jumbotron .btn {
   font-size: 21px;
@@ -71,10 +73,12 @@ body {
   .footer {
     padding-left: 0;
     padding-right: 0;
+    border-width: 0px;
   }
   /* Space out the masthead */
   .header {
     margin-bottom: 30px;
+    border-width: 0px;
   }
   /* Remove the bottom border on the jumbotron for visual effect */
   .jumbotron {

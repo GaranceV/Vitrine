@@ -1,0 +1,16 @@
+.navbar {
+  background:#EE1010;
+}
+.nav > li > a {
+  color: #260303;!important;
+}
+/*body.ng-scope.div.container {
+  backgound-color:#F67979;!important;
+}*/
+div.jumbotron.ng-scope {
+  background:#F67979;!important;
+}
+
+div.panel {
+  background:#F67979;!important;
+}
