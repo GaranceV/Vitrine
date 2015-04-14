@@ -1,20 +1,28 @@
 <p>This is the page where I tell you everything about my projects !
 Mostly school projects, but also side projects like the Nuit de l'info event,
   a yearly hard programming night desgined for IT students where they confront their different skills.
-  <a href="http://www.nuitdelinfo.com/">(check it out (FR)!)</a></p>
+  (<a href="http://www.nuitdelinfo.com/">check it out! </a>(FR))</p>
 
 <div class="panel panel-default">
   <div class="panel-heading">
     <h1 class="panel-title">The projects I worked on</h1>
   </div>
   <div class="panel-body">
-    <h3>Where did I go to school ?</h3>
-    <ul>
-      <li ng-repeat="etab in myData.Myeducation">
-        In {{etab.year}} :
-        <ul>
-          <li>I was at {{etab.school}} in {{etab.subject}}.</li>
-        </ul>
-      </li>
-    </ul>
+    <div ng-repeat="myproj in theProjects.myProjects">
+    <h3>{{myproj.Projecttitle}}</h3>
+      <p> In {{myproj.year}}, I worked in a {{myproj.team}} team, during the {{myproj.context}}.
+        This project was developped as part of {{myproj.place}}.<br/>
+      Our main feature was a {{myproj['main feature']}}, but we also gave a great deal of attention to a {{myproj['other feature']}}
+        <br/>
+        As for myself, I was mainly responsible for {{myproj['responsible for']}}.
+        <br/>To give you an idea, during this project, we mostly used :
+        <ul><li>{{myproj['tech 1']}}, </li><li>{{myproj['tech 2']}}, </li><li>{{myproj['tech 3']}}. </li></ul>
+
+    <!-- pour le  more, besoin d'appeler une fonction qui dit oui ou non si more existe
+    <span ng-if="checked" class="animate-if">-->
+      </p>
+      </div>
+    </div>
+  </div>
+
 

@@ -9,9 +9,9 @@
  */
 angular.module('vitrineApp')
   .controller('ProjectsCtrl', function ($scope, $http) {
-    $scope.myProjects = $http.get('assets/projects.json')
+    $scope.theProjects = $http.get('assets/projects.json')
       .success(function (data) {
-        $scope.myProjects = data;
+        $scope.theProjects = data;
       })
       .error(function (error) {
         console.log(error); //pour le debug

@@ -1,29 +1,32 @@
-{"projects": [
 {
-"year": "2015",
-"place": "Polytech Nice Sophia",
-"context": "end of semester project",
-"team": "5 persons",
-"title": "Marauders' map",
-"responsible for": "client / server communication",
-"main feature": "position simulator",
-"other feature": "secured HTTPS communication",
-"tech 1": "java",
-"tech 2": "javascript",
-"tech 3": "git"
-},
-{
-"year": "2014",
-"place": "Polytech Nice Sophia",
-"context": "tools for sofwtare engineering class project",
-"team": "4 persons",
-"title": "Myrmes game",
-"responsible for": "about everything",
-"main feature": "robot player",
-"other feature": "JSON communication",
-"tech 1": "java",
-"tech 2": "git",
-"tech 3": "kanban"
-}
-]
+  "myProjects": [
+    {
+      "year": "2015",
+      "place": "Polytech Nice Sophia",
+      "context": "end of semester project",
+      "team": "5 persons",
+      "Projecttitle": "Marauders' map",
+      "responsible for": "client / server communication",
+      "main feature": "position simulator",
+      "other feature": "secured HTTPS communication",
+      "tech 1": "java",
+      "tech 2": "javascript",
+      "tech 3": "git",
+      "more": "http://app.emaze.com/@AOCLFFLL/presentation-name"
+    },
+    {
+      "year": "2014",
+      "place": "Polytech Nice Sophia",
+      "context": "tools for sofwtare engineering class project",
+      "team": "4 persons",
+      "Projecttitle": "Myrmes game",
+      "responsible for": "about everything",
+      "main feature": "robot player",
+      "other feature": "JSON communication",
+      "tech 1": "java",
+      "tech 2": "git",
+      "tech 3": "kanban",
+      "more": "nope"
+    }
+  ]
 }

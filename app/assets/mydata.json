@@ -37,6 +37,11 @@
       "fav place": "Benjamin Franklin Museum"
     }
   ],
+  "hobbies": [
+    {"name": "writing"},
+    {"name": "theatre"},
+    {"name": "cooking"}
+  ],
   "Skills": [
     {
       "domain": "IT",
@@ -68,10 +73,5 @@
       "level": "beginner",
       "Certificate": "none"
     }
-  ],
-  "hobbies": [
-    {"name": "writing"},
-    {"name": "theatre"},
-    {"name": "cooking"}
   ]
 }
