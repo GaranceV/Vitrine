@@ -86,3 +86,9 @@ body {
     border-bottom: 0;
   }
 }
+
+
+.navbar-custom {
+  color: #000000;
+  background-color: #CC3333;
+}

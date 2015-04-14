@@ -21,20 +21,11 @@ angular.module('vitrineApp')
     var slides = $scope.slides = [];
     $scope.addSlide = function() {
       slides.push({
-        image: 'assets/images/' + i + '.jpg'/*
-         <img src="assets/images/1.jpg"height="50%" width="50%" alt="Bredeles">
-         <img src="assets/images/chocolat%20banane.jpg" height="50%" width="50%" alt="Chocolat + Banane">
-         <img src="assets/images/3.jpg" height="50%" width="50%" alt="Noisettes">
-         */
+        image: 'assets/images/' + i + '.jpg'
       });
     };
-    for (var i=1; i<4; i++) {
+    for (var i=1; i<7; i++) {
       $scope.addSlide();
     }
-        $scope.theName='his name !';
-        $scope.getName = function(n) {
-            $scope.theName = n;
-        };
-
 
   });
