@@ -21,3 +21,6 @@ div.panel-heading { /*maybe stg else here, eg darker*/
 div.progress{
   width: 300px;
 }
+
+
+.nav, .pagination, .carousel, .panel-title a { cursor: pointer; }

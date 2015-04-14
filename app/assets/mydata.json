@@ -17,31 +17,6 @@
       "place": "Lyon"
     }
   ],
-  "Travels": [
-    {
-      "country": "Ireland",
-      "year": "2010",
-      "city": "Dublin",
-      "with": "alone",
-      "duration": "1 week",
-      "stayed at": "friends'",
-      "fav place": "Trinity College"
-    },
-    {
-      "country": "USA",
-      "year": "2008",
-      "city": "Philadelphia",
-      "with": "school trip",
-      "duration": "3 weeks",
-      "stayed at": "american family'",
-      "fav place": "Benjamin Franklin Museum"
-    }
-  ],
-  "hobbies": [
-    {"name": "writing"},
-    {"name": "theatre"},
-    {"name": "cooking"}
-  ],
   "Skills": [
     {
       "domain": "IT",

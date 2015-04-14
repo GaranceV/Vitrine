@@ -1,9 +1,42 @@
-There are a few things you must know about me besides computer science :
-I LOVE
+<div class="panel panel-default">
+  <div class="panel-heading">
+    <h3 class="panel-title">What you must know besides computer science</h3>
+  </div>
+  <div class="panel-body">
+    <p ng-repeat="hobby in funStuff.hobbies">
+      I LOVE {{hobby.name}} !
+    </p>
 
-Here is a sample ;)
+    Here is a sample ;) <br/>
+
+    <div class="col-md-6">
+      <carousel interval="carousel_interval">
+        <slide ng-repeat="slide in slides" active="slide.active">
+          <img ng-src="{{slide.image}}" style="max-height:300px; margin:0 auto;">
+          <div class="carousel-caption">
+            <h4>Slide {{$index}}</h4>
+            <p>{{slide.text}}</p>
+          </div>
+        </slide>
+      </carousel>
+    </div>
+
+    <div class="panel panel-default">
+      <div class="panel-heading">About travelling</div>
+
+      <p ng-repeat="holiday in funStuff.Travels">
+        In {{holiday.year}}, I went to {{holiday.country}}. I stayed in {{holiday.city}} at {{holiday['stayed at']}}.
+        <br/>
+        This trip only lasted {{holiday.duration}}, but I can still tell you that my favourite place there is
+        {{holiday['fav place']}} !!
+        <
+        <br/>Here's a picture ! <br/>
+        <img src="{{holiday.pic}}" class="img-thumbnail" alt="{{holiday['fav place']}}" width="304" height="236">
+      </p>
 
 
+    </div>
+  </div>
+</div>
 
-About travelling, I have been to
 

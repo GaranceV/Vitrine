@@ -18,8 +18,9 @@ Mostly school projects, but also side projects like the Nuit de l'info event,
         <br/>To give you an idea, during this project, we mostly used :
         <ul><li>{{myproj['tech 1']}}, </li><li>{{myproj['tech 2']}}, </li><li>{{myproj['tech 3']}}. </li></ul>
 
-    <!-- pour le  more, besoin d'appeler une fonction qui dit oui ou non si more existe
-    <span ng-if="checked" class="animate-if">-->
+      <div ng-if="myproj.more != 'nope'">
+        You can discover more about this project by following <a href="{{myproj.more}}">this link</a>.
+      </div>
       </p>
       </div>
     </div>
