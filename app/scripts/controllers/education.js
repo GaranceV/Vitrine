@@ -27,5 +27,4 @@ angular.module('vitrineApp')
             .error(function(error) {
                 console.log(error); //pour le debug
             });
-    //need to convert each one need into an array to order by order of date ?!
     });

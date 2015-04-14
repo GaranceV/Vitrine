@@ -3,3 +3,18 @@ Mostly school projects, but also side projects like the Nuit de l'info event,
   a yearly hard programming night desgined for IT students where they confront their different skills.
   <a href="http://www.nuitdelinfo.com/">(check it out (FR)!)</a></p>
 
+<div class="panel panel-default">
+  <div class="panel-heading">
+    <h1 class="panel-title">The projects I worked on</h1>
+  </div>
+  <div class="panel-body">
+    <h3>Where did I go to school ?</h3>
+    <ul>
+      <li ng-repeat="etab in myData.Myeducation">
+        In {{etab.year}} :
+        <ul>
+          <li>I was at {{etab.school}} in {{etab.subject}}.</li>
+        </ul>
+      </li>
+    </ul>
+

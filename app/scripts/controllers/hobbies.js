@@ -8,7 +8,7 @@
  * Controller of the vitrineApp
  */
 angular.module('vitrineApp')
-  .controller('AboutCtrl', function ($scope) {
+  .controller('HobbiesCtrl', function ($scope) {
     $scope.awesomeThings = [
       'HTML5 Boilerplate',
       'AngularJS',

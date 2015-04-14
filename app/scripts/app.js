@@ -23,10 +23,6 @@ angular
         templateUrl: 'views/main.html',
         controller: 'MainCtrl'
       })
-      .when('/about', {
-        templateUrl: 'views/about.html',
-        controller: 'AboutCtrl'
-      })
         .when('/education', {
             templateUrl: 'views/education.html',
             controller: 'EducationCtrl'
@@ -38,6 +34,14 @@ angular
       .when('/projects', {
         templateUrl: 'views/projects.html',
         controller: 'ProjectsCtrl'
+      })
+      .when('/hobbies', {
+        templateUrl: '../views/hobbies.html',
+        controller: 'HobbiesCtrl'
+      })
+      .when('/work', {
+        templateUrl: '../views/work.html',
+        controller: 'WorkCtrl'
       })
       .otherwise({
         redirectTo: '/'
