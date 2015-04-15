@@ -2,20 +2,20 @@
   background:#AC0C0C;
 }
 .nav > li > a {
-  color: #260303;!important;
+  color: #260303 !important;
 }
 
 div.jumbotron.ng-scope {
-  background:#F67979;!important;
+  background:#F67979 !important;
 }
 
 div.panel {
-  background:#F67979;!important;
+  background:#F67979 !important;
   border-width: 0px;
 }
 
 div.panel-heading { /*maybe stg else here, eg darker*/
-  background:#F67979;!important;
+  background:#F67979 !important;
 }
 
 div.progress{
